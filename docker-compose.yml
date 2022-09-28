@@ -1,0 +1,14 @@
+version: '3.4'
+services:
+  web:
+    image: registry.digitalocean.com/tallypeer/landing-page:latest
+    environment:
+      container_name: landing-page
+      restart: always
+      VIRTUAL_HOST: www.managed.tallypeer.com
+      LETSENCRYPT_HOST: www.managed.tallypeer.com
+
+networks:
+  default:
+    external:
+      name: proxy
