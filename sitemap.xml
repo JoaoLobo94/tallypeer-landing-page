@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://www.tallypeer.com/index.html</loc>
+		<loc>https://tallypeer.com/index.html</loc>
+	</url>
+	<url>
+		<loc>https://tallypeer.com/login/index.html</loc>
 	</url>
 </urlset>
